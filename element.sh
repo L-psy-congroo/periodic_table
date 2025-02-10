@@ -1,3 +1,4 @@
+# This script retrieves information about a chemical element from the database.
 #!/bin/bash
 
 if [[ -z "$1" ]]; then
