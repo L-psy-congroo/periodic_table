@@ -16,3 +16,4 @@ fi
 echo "$DB_QUERY" | while IFS="|" read -r atomic_number name symbol atomic_mass type melting_point boiling_point; do
   echo "The element with atomic number $atomic_number is $name ($symbol). It's a $type, with a mass of $atomic_mass amu. $name has a melting point of $melting_point celsius and a boiling point of $boiling_point celsius."
 done
+# I just need to add another thing to the commit
